@@ -18,10 +18,8 @@ A SystemVerilog cache controller for an L1 + L2 + main memory hierarchy, coordin
 - [Parameters](#parameters)
 - [Cache Organisation](#cache-organisation)
 - [Repository Layout](#repository-layout)
-- [Getting Started](#getting-started)
-- [Testing](#testing)
 - [Results](#results)
-- [Demo](#demo)
+
 
 ---
 
