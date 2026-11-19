@@ -140,8 +140,6 @@ Formulas:
 | ... | | | | | | | | |
 | 127 | | | | | | | | |
 
-Tag values are illustrative examples that fit the tag widths (6 bits for L1, 4 bits for L2).
-
 ---
 
 ## Repository Layout
@@ -154,8 +152,6 @@ Tag values are illustrative examples that fit the tag widths (6 bits for L1, 4 b
 ├── Simulation_Waveforms/      # Detailed Simulation log and multiple simulation waveforms 
 └── README.md
 ```
-
-> TODO: update to match your real folders.
 
 ---
 
