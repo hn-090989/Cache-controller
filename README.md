@@ -38,7 +38,7 @@ A SystemVerilog cache controller for an L1 + L2 + main memory hierarchy, coordin
 
 ## Architecture
 
-![Architecture](docs/architecture.png)
+<img width="851" height="490" alt="image" src="https://github.com/user-attachments/assets/276520a8-a162-45ac-a389-dd3101493aa7" />
 
 Each link between modules has a data bus and an enable signal: `controller_to_L1_en/data`, `L1_to_controller_en/data`, `L1_to_L2_en/data`, `L2_to_L1_en/data`, `L2_to_main_en/data` and `main_to_L2_en/data`.
 
@@ -53,9 +53,7 @@ Each link between modules has a data bus and an enable signal: `controller_to_L1
 
 ## Program Flow
 
-![Program Flow](docs/program_flow.png)
-
-> TODO: describe the write path and the write-miss policy.
+<img width="637" height="892" alt="image" src="https://github.com/user-attachments/assets/91ff3394-f4ef-4b0c-aff1-cb2b91021c76" />
 
 ---
 
@@ -152,32 +150,14 @@ Tag values are illustrative examples that fit the tag widths (6 bits for L1, 4 b
 
 ```
 .
-├── rtl/     # SystemVerilog source
-├── tb/      # Testbenches
-├── docs/    # Diagrams and waveforms
+├── rtl/                       # SystemVerilog source
+├── Architecture + Notes/      # Testbenches
+├── Simulation_Testbenches/    # Testbenches
+├── Simulation_Waveforms/      # Detailed Simulation log and multiple simulation waveforms 
 └── README.md
 ```
 
 > TODO: update to match your real folders.
-
----
-
-## Getting Started
-
-1. Clone the repo
-   ```bash
-   git clone <your-repo-url>
-   cd <your-repo>
-   ```
-2. Open it in your simulator or synthesis tool (TODO: name the tool and version)
-3. Add the files from `rtl/` and set the top module to the testbench in `tb/`
-4. Run the simulation
-
----
-
-## Testing
-
-> TODO: name the testbench file(s) and describe the test cases and expected outcomes.
 
 ---
 
@@ -216,17 +196,11 @@ RESULT: PASS
 
 ### Waveforms and FPGA
 
-- Simulation waveforms: TODO, add screenshots
-- FPGA / synthesis results (if applicable): TODO, add board, utilization and clock frequency
-
----
-
-## Demo
-
-TODO: add the project video link.
+<img width="1917" height="866" alt="waveform3 2" src="https://github.com/user-attachments/assets/e210bcd3-5b70-4cf0-a097-1373e52fafb2" />
+<img width="1912" height="857" alt="waveform5 1" src="https://github.com/user-attachments/assets/4097c0e5-09e7-40b8-b922-b423e5300bb5" />
 
 ---
 
 ## Author
 
-TODO: your name, university and contact or GitHub link.
+Hadia Naveed, National University of Sciences and Technology
