@@ -188,7 +188,7 @@ RESULT: PASS
 | X reads skipped | 0 |
 | Result | PASS |
 
-### Waveforms and FPGA
+### Waveforms
 
 <img width="1917" height="866" alt="waveform3 2" src="https://github.com/user-attachments/assets/e210bcd3-5b70-4cf0-a097-1373e52fafb2" />
 <img width="1912" height="857" alt="waveform5 1" src="https://github.com/user-attachments/assets/4097c0e5-09e7-40b8-b922-b423e5300bb5" />
